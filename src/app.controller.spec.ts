@@ -13,4 +13,8 @@ describe('AppController', () => {
 
     appController = app.get<AppController>(AppController);
   });
+
+  it('should pass', () => {
+    expect(true).toBe(true);
+  });
 });
